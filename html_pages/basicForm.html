@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>✔Registration Form✔</title>
+</head>
+
+<body>
+    <center>
+        <h1>Registration form</h1>
+    </center>
+
+    <h2><em>Basic Details Form : </em></h2><br>
+
+    <form action="mailto:mohankirti999@gmimal.com">
+
+        <label>Name : </label><input type="text" , placeholder="Please enter your name here" , pattern="[A-Za-z]+" ,
+            required>
+
+        <br><br>
+        <label>Gender : </label>
+        <label>Male</label><input type="radio" , name="Gender">
+        <label>Female</label><input type="radio" , name="Gender">
+        <label>Other</label><input type="radio" , name="Gender">
+
+        <br><br>
+        <label>Qualification : </label>
+        <label>10th</label><input type="checkbox" , name="Qualification">
+        <label>12th</label><input type="checkbox" , name="Qualification">
+        <label>Graduate</label><input type="checkbox" , name="Qualification">
+        <label>Post-Graduate</label><input type="checkbox" , name="Qualification">
+
+        <br><br>
+        <label for="email">E-mail</label><input type="email" placeholder="@xyz.com">
+
+        <br><br>
+        <label>Upload your certificates </label><input type="file" accept=".doc, docx, .txt, .pdf">
+
+        <br><br>
+        <label for="dob">date of birth:</label><input type="date" id="start" name="date of birth"  min="1900-01-01" max="2022-12-12">
+
+        <br><br>
+        <label for="Submit">Submit</label><input type="submit">
+    </form>
+</body>
+
+</html>
